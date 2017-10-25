@@ -19,3 +19,6 @@ C:\Users\Usuario\Desktop\ExtraFicheros2.0\ExtraFicheros2.0\obj\Debug\ExtraFicher
 C:\Users\Usuario\Desktop\ExtraFicheros2.0\ExtraFicheros2.0\bin\Debug\ExtraFicheros2.0.exe
 C:\Users\Usuario\Desktop\ExtraFicheros2.0\ExtraFicheros2.0\bin\Debug\ExtraFicheros2.0.pdb
 C:\Users\Usuario\Desktop\ExtraFicheros2.0\ExtraFicheros2.0\obj\Debug\ExtraFicheros2.0.csprojResolveAssemblyReference.cache
+B:\Repositorios en Git\ExtractorFicherosCsYEXE\ExtraFicheros2.0\ExtraFicheros2.0\bin\Debug\ExtraFicheros2.0.exe.config
+B:\Repositorios en Git\ExtractorFicherosCsYEXE\ExtraFicheros2.0\ExtraFicheros2.0\obj\Debug\ExtraFicheros2.0.exe
+B:\Repositorios en Git\ExtractorFicherosCsYEXE\ExtraFicheros2.0\ExtraFicheros2.0\obj\Debug\ExtraFicheros2.0.pdb
