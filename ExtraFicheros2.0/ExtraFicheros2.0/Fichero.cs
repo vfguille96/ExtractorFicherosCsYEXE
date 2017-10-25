@@ -18,11 +18,9 @@ namespace ExtraFicheros
         string[] arryRutasOriginales;
         string[] arrayRutasExe;
         string[] arryUnProyecto;//Donde guardaremos la ruta hacia cada fichero en un proyecto.
-        string[] arryUnProyectoEXE;
         string[] arrayNombreProyectos;
         string[] Rutasnuevas;
-        int contador = 0;
-        int contadorExe = 0;
+      
 
         /// <summary>
         /// Lee todos los ficheros  dentro de un directorio concreto.
@@ -60,13 +58,15 @@ namespace ExtraFicheros
                         if (fichero.LongLength != 0)//Si encontro algo
                         {
                             tmp = (fichero[k].FullName).ToString();
-                            arryUnProyecto[k] = fichero[k].FullName.ToString();              
+                            arryUnProyecto[k] = fichero[k].FullName.ToString();
+                            string nombreFichero = string.Empty;
+                            nombreFichero = fichero[k].Name;
 
                             //POR AQUI *******
                             //Copia cada fichero ".cs " a su directorio correspondiente(Arreglar que aprezca con el mismo nombre que el oroginal).
                             FileInfo mifichero2 = new FileInfo(arryUnProyecto[k]);
-                            mifichero2.CopyTo(Rutasnuevas[i]+Path.DirectorySeparatorChar+"program" + contador + ".cs");                           
-                            contador++;                            
+                            mifichero2.CopyTo(Rutasnuevas[i]+Path.DirectorySeparatorChar+nombreFichero);                           
+                                                       
                             
                         }                    
                     }
@@ -107,37 +107,23 @@ namespace ExtraFicheros
                 FileInfo[] fichero2;
                 fichero2 = directorio2.GetFiles(arrayNombreProyectos[i] + ".exe");// Busca los "*.exe" 
 
-             
-                #region ZONA A REVISAR o Sustitucion por Foreach
-                
-                for (int j = 0; j < fichero2.Length; j++)
+                #region Probando Foreach
+
+                foreach (FileInfo fichero in fichero2)
                 {
+                    FileInfo mifichero3 = new FileInfo(fichero.FullName);
+                    string combinacionRutasFinales = string.Empty;
+                    combinacionRutasFinales = Rutasnuevas[i]+Path.DirectorySeparatorChar + arrayNombreProyectos[i] + ".exe";
+                    File.Copy(mifichero3.ToString(),combinacionRutasFinales);
 
-
-                    arryUnProyectoEXE = new string[fichero2.Length];//Creamos un array con la longitud de la cantiadad de ficheros encontrados
-                    Console.WriteLine("[{0}] Nombre fichero EXE -> {1} .", j, fichero2[j].Name.ToString());
-                    string tmp = string.Empty;
-                    tmp = fichero2[j].ToString(); ;
-                    tmp = fichero2[j].FullName.ToString();
-                    Console.WriteLine("\n\t\t---Fin Ficheros EXE de esa Ruta ----\n");
-
-                    if (fichero2.LongLength != 0)//Si encontro algo
-                    {
-                        tmp = (fichero2[j].FullName).ToString();
-                        arryUnProyectoEXE[j] = fichero2[j].FullName.ToString();
-
-
-                        FileInfo mifichero3 = new FileInfo(arrayRutasExe[i]);
-                        mifichero3.CopyTo(Rutasnuevas[i] +  "ejecutable" + contadorExe);
-                        contadorExe++;
-
-                    }
                 }
-#endregion
+                #endregion
+             
 
             }
         
         }
+
 
         public bool CompruebaFichero(string ruta)
         {
