@@ -25,3 +25,10 @@ B:\Repositorios en Git\ExtractorFicherosCsYEXE\ExtraFicheros2.0\ExtraFicheros2.0
 B:\Repositorios en Git\ExtractorFicherosCsYEXE\ExtraFicheros2.0\ExtraFicheros2.0\bin\Debug\ExtraFicheros2.0.exe
 B:\Repositorios en Git\ExtractorFicherosCsYEXE\ExtraFicheros2.0\ExtraFicheros2.0\bin\Debug\ExtraFicheros2.0.pdb
 B:\Repositorios en Git\ExtractorFicherosCsYEXE\ExtraFicheros2.0\ExtraFicheros2.0\obj\Debug\ExtraFicheros2.0.csprojResolveAssemblyReference.cache
+C:\Users\vfgui.DESKTOP-55PVKNI\OneDrive\Documentos\Visual Studio 2017\Projects\ExtractorFicherosCsYEXE\ExtraFicheros2.0\ExtraFicheros2.0\bin\Debug\ExtraFicheros2.0.exe.config
+C:\Users\vfgui.DESKTOP-55PVKNI\OneDrive\Documentos\Visual Studio 2017\Projects\ExtractorFicherosCsYEXE\ExtraFicheros2.0\ExtraFicheros2.0\bin\Debug\ExtraFicheros2.0.exe
+C:\Users\vfgui.DESKTOP-55PVKNI\OneDrive\Documentos\Visual Studio 2017\Projects\ExtractorFicherosCsYEXE\ExtraFicheros2.0\ExtraFicheros2.0\bin\Debug\ExtraFicheros2.0.pdb
+C:\Users\vfgui.DESKTOP-55PVKNI\OneDrive\Documentos\Visual Studio 2017\Projects\ExtractorFicherosCsYEXE\ExtraFicheros2.0\ExtraFicheros2.0\obj\Debug\ExtraFicheros2.0.csprojResolveAssemblyReference.cache
+C:\Users\vfgui.DESKTOP-55PVKNI\OneDrive\Documentos\Visual Studio 2017\Projects\ExtractorFicherosCsYEXE\ExtraFicheros2.0\ExtraFicheros2.0\obj\Debug\ExtraFicheros2.0.csproj.CoreCompileInputs.cache
+C:\Users\vfgui.DESKTOP-55PVKNI\OneDrive\Documentos\Visual Studio 2017\Projects\ExtractorFicherosCsYEXE\ExtraFicheros2.0\ExtraFicheros2.0\obj\Debug\ExtraFicheros2.0.exe
+C:\Users\vfgui.DESKTOP-55PVKNI\OneDrive\Documentos\Visual Studio 2017\Projects\ExtractorFicherosCsYEXE\ExtraFicheros2.0\ExtraFicheros2.0\obj\Debug\ExtraFicheros2.0.pdb

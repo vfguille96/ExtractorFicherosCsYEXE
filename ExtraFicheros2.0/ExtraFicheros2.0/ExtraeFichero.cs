@@ -4,15 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
-
 namespace ExtraFicheros
 {
-    class ExtraeFichero
+    internal class ExtraeFichero
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
-                     
             Fichero mifichero = new Fichero();
             mifichero.LecturaFicheros();
             mifichero.LecturaFicheroExe();
